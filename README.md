@@ -142,11 +142,35 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
 исправить её и выложить исправленный код в продакшн. Мы никуда не будем выкладывать код, но пометим некоторые коммиты тегами и создадим от них ветки. 
 
 1. Создайте легковестный тег `v0.0` на HEAD-коммите и запуште его во все три добавленных на предыдущем этапе `upstream`.
+
+Результат:
+![alt text](image-8.png)
+![alt text](image-9.png)
+
+![alt text](image-10.png)
+![alt text](image-11.png)
+
 1. Аналогично создайте аннотированный тег `v0.1`.
+
+![alt text](image-12.png)
+
+![alt text](image-13.png)
+
+![alt text](image-14.png)
+
+
 1. Перейдите на страницу просмотра тегов в GitHab (и в других репозиториях) и посмотрите, чем отличаются созданные теги. 
     * в GitHub — https://github.com/YOUR_ACCOUNT/devops-netology/releases;
+
+    ![alt text](image-15.png)
+
     * в GitLab — https://gitlab.com/YOUR_ACCOUNT/devops-netology/-/tags;
+
+![alt text](image-16.png)
+
     * в Bitbucket — список тегов расположен в выпадающем меню веток на отдельной вкладке. 
+
+
 
 ## Задание 3. Ветки 
 
