@@ -176,15 +176,46 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
 
 Давайте посмотрим, как будет выглядеть история коммитов при создании веток. 
 
+### Комментарий 
+Прошлое ДЗ я выполнял в другом репозитории: https://github.com/DmitryIll/git-2.git 
+Поэтому там я и продолжу. 
+
 1. Переключитесь обратно на ветку `main`, которая должна быть связана с веткой `main` репозитория на `github`.
 1. Посмотрите лог коммитов и найдите хеш коммита с названием `Prepare to delete and move`, который был создан в пределах предыдущего домашнего задания. 
+
+Результат:
+![alt text](image-17.png)
+
 1. Выполните `git checkout` по хешу найденного коммита. 
+
+Результат:
+![alt text](image-18.png)
+
 1. Создайте новую ветку `fix`, базируясь на этом коммите `git switch -c fix`.
+
+![alt text](image-19.png)
+
+![alt text](image-20.png)
+
 1. Отправьте новую ветку в репозиторий на GitHub `git push -u origin fix`.
+![alt text](image-21.png)
+
+Еще я внес правки в файл что бы ветка видна была.
+![alt text](image-22.png)
+
 1. Посмотрите, как визуально выглядит ваша схема коммитов: https://github.com/YOUR_ACCOUNT/devops-netology/network. 
+
+![alt text](image-23.png)
+
 1. Теперь измените содержание файла `README.md`, добавив новую строчку.
+ Уже это сделал ранее.
+
 1. Отправьте изменения в репозиторий и посмотрите, как изменится схема на странице https://github.com/YOUR_ACCOUNT/devops-netology/network 
 и как изменится вывод команды `git log`.
+
+![alt text](image-24.png)
+
+![alt text](image-25.png)
 
 ## Задание 4. Упрощаем себе жизнь
 
@@ -204,7 +235,16 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
 Подробней о визуальном интерфейсе мы расскажем на одной из следующих лекций.
 
 *В качестве результата работы по всем заданиям приложите ссылки на ваши репозитории в GitHub, GitLab и Bitbucket*.  
- 
+
+### Решение:
+
+Сделал еще несколько коммитов в IDE.
+так же в https://github.com/DmitryIll/git-2.git
+
+![alt text](image-26.png)
+
+сделал в ветке мастер в https://github.com/DmitryIll/git-2.git 
+
 ----
 
 ### Правила приёма домашнего задания
